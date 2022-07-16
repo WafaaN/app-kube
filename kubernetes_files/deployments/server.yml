@@ -15,7 +15,7 @@ spec:
         app: server
     spec:
       containers:
-        - name: hello-world
+        - name: server
           image: wafaanasouh/microservice:server
           ports:
             - containerPort: 3000
